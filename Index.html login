@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تسجيل الدخول - رنج روفر</title>
+</head>
+<body bgcolor="#f4f4f4" text="#333333">
+
+    <header>
+        <center>
+            <h1><font color="#1b4d3e" size="6">صفحة تسجيل الدخول</font></h1>
+            <p>أدخل بياناتك للوصول إلى حسابك الشخصي والاطلاع على العروض الخاصة</p>
+        </center>
+        <hr size="2" color="#1b4d3e">
+    </header>
+
+    <br><br>
+
+    <main>
+        <center>
+            <!-- جدول لتنظيم نموذج تسجيل الدخول -->
+            <table border="1" cellpadding="20" cellspacing="0" bgcolor="#ffffff" width="400">
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <fieldset>
+                                <legend><b>بيانات الحساب</b></legend>
+                                <br>
+
+                                <!-- حقل اسم المستخدم -->
+                                <label for="username"><b>اسم المستخدم:</b></label><br>
+                                <input type="text" id="username" name="username" placeholder="أدخل اسم المستخدم" required size="35">
+                                
+                                <br><br>
+
+                                <!-- حقل البريد الإلكتروني أو اسم الحساب -->
+                                <label for="email"><b>البريد الإلكتروني / اسم الحساب:</b></label><br>
+                                <input type="email" id="email" name="email" placeholder="example@domain.com" required size="35">
+                                
+                                <br><br>
+
+                                <!-- حقل كلمة المرور -->
+                                <label for="password"><b>كلمة المرور:</b></label><br>
+                                <input type="password" id="password" name="password" placeholder="أدخل كلمة المرور" required size="35">
+                                
+                                <br><br>
+
+                                <!-- خيار تذكرني -->
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">تذكر بياناتي على هذا الجهاز</label>
+
+                                <br><br><br>
+
+                                <!-- زر تسجيل الدخول وزر المسح -->
+                                <center>
+                                    <input type="submit" value="تسجيل الدخول">
+                                    &nbsp;&nbsp;
+                                    <input type="reset" value="إعادة ضبط">
+                                </center>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <!-- رابط العودة للصفحة الرئيسية -->
+            <p>
+                <a href="index.html"><b>&rarr; العودة إلى الصفحة الرئيسية</b></a>
+            </p>
+        </center>
+    </main>
+
+    <br><hr size="1" color="#cccccc"><br>
+
+    <footer>
+        <center>
+            <p><small>جميع الحقوق محفوظة &copy; 2026</small></p>
+        </center>
+    </footer>
+
+</body>
+</html>
